@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.e6c13ad2.css",
+    "main.js": "/memory-game/static/js/main.e8dd19ed.js",
+    "static/media/the-madcap-laughs.jpg": "/memory-game/static/media/the-madcap-laughs.1263ff4da9f4513dabe3.jpg",
+    "static/media/lust-for-life.jpg": "/memory-game/static/media/lust-for-life.016768905125946622bf.jpg",
+    "static/media/in-the-court-of-the-crimson-king.jpg": "/memory-game/static/media/in-the-court-of-the-crimson-king.6a5e1115525e7013b323.jpg",
+    "static/media/low.jpg": "/memory-game/static/media/low.b7dd2f83f0c6b2c3ca0d.jpg",
+    "static/media/lift-your-skinny-fists-like-antennas-to-heaven.jpg": "/memory-game/static/media/lift-your-skinny-fists-like-antennas-to-heaven.7376d083a126a50055c6.jpg",
+    "static/media/citizen-g.c.jpg": "/memory-game/static/media/citizen-g.c.8b4b4147025d16d97223.jpg",
+    "static/media/tranquility-base-hotel-&-casino.jpg": "/memory-game/static/media/tranquility-base-hotel-&-casino.748e5aef8d3044498fa2.jpg",
+    "static/media/the-ooz.jpg": "/memory-game/static/media/the-ooz.b0cec5afbbf26087dace.jpg",
+    "static/media/madvillainy.jpg": "/memory-game/static/media/madvillainy.fd43c5d5b28875dbc0cf.jpg",
+    "static/media/mr.-morale-&-the-big-steppers.jpg": "/memory-game/static/media/mr.-morale-&-the-big-steppers.14754e520c16cb9a375b.jpg",
+    "static/media/unknown-pleasures.jpg": "/memory-game/static/media/unknown-pleasures.505d98ff8e7ad2b12245.jpg",
+    "static/media/the-velvet-underground-&-nico.jpg": "/memory-game/static/media/the-velvet-underground-&-nico.2e8f156b80d68f17e9e1.jpg",
+    "index.html": "/memory-game/index.html",
+    "main.e6c13ad2.css.map": "/memory-game/static/css/main.e6c13ad2.css.map",
+    "main.e8dd19ed.js.map": "/memory-game/static/js/main.e8dd19ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.e8dd19ed.js"
+  ]
+}
