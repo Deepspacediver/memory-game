@@ -66,6 +66,7 @@ const StyledCardsContainer = styled.div`
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 14rem));
+  grid-auto-rows: 1fr;
   justify-content: center;
   gap: 2rem;
   margin-top: 3rem;
