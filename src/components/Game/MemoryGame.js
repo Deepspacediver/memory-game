@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import MemoryCard from "./MemoryCard";
 import Scoreboard from "./Scoreboard";
 import imagesArray from "../../helpers/importImages";
+import styled from "styled-components";
 
 const MemoryGame = () => {
   const [imgArr, setImgArr] = useState(imagesArray);
@@ -44,7 +45,7 @@ const MemoryGame = () => {
         currentScore={score.currentScore}
         bestScore={score.bestScore}
       />
-      <div className="memory-card-container">
+      <StyledCardsContainer>
         {imgArr.map((obj, i) => {
           return (
             <React.Fragment key={i}>
@@ -56,9 +57,28 @@ const MemoryGame = () => {
             </React.Fragment>
           );
         })}
-      </div>
+      </StyledCardsContainer>
     </>
   );
 };
+
+const StyledCardsContainer = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 14rem));
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+
+  @media (min-width: 925px) {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
+  }
+
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 28rem));
+  }
+`;
 
 export default MemoryGame;
